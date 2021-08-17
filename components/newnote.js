@@ -3,7 +3,11 @@ import {TextInput} from 'react-native';
 
 class newNote extends Component {
   render() {
-    return <TextInput></TextInput>;
+    state = { userInput: String};
+    
+    return (
+    <TextInput></TextInput>
+    )
   }
 }
 
